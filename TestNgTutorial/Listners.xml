@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loans">
+<listeners>
+<listener class-name="PackageAutoTest.Listeners"/>
+</listeners>
+<!-- Below 'name' is parameter name to be given and parameter value next to be given -->
+<parameter name="URLSuiteLevel" value="https://www.google.com"/>
+
+	<test name="Regression Test">
+	<parameter name="UrlTestLevel" value="Https://www.testlevel.com" />
+
+		<classes>
+
+
+			<class name="PackageAutoTest.DependsOnMethod" />
+			
+		</classes>
+	
+	</test>
+	</suite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite for Testing" parallel="tests">
+<listeners>
+<listener class-name="ScrathFramework.Listeners"/>
+</listeners>
+
+	<test thread-count="5"
+		name="Valoidation of home page text message">
+		<classes>
+			<class name="ScrathFramework.PageNavigationTestNg" />
+		</classes>
+	</test>
+	<test name="dataProviders">
+	<classes>
+	<class name="ScrathFramework.DataProviderTestNgLogin"/>
+	</classes>
+	</test>
+	<test name="ForgotPasswordSendmeButton">
+	<classes>
+	<class name="ScrathFramework.ForgotNavigation"/>
+	</classes>
+	</test>
+	
+	
+
+
+	<!-- Test -->
+</suite> <!-- Suite -->

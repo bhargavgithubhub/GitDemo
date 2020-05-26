@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Loans]" guice-stage="DEVELOPMENT">
+  <parameter name="URLSuiteLevel" value="https://www.google.com"/>
+  <listeners>
+    <listener class-name="PackageAutoTest.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Regression Test(failed)">
+    <parameter name="UrlTestLevel" value="Https://www.testlevel.com"/>
+    <classes>
+      <class name="PackageAutoTest.DependsOnMethod">
+        <methods>
+          <include name="testDivide"/>
+          <include name="testProcessRealNumbers"/>
+        </methods>
+      </class> <!-- PackageAutoTest.DependsOnMethod -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Loans] -->

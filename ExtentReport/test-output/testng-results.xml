@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-13T17:21:57 IST" name="Default suite" finished-at="2020-05-13T17:22:13 IST" duration-ms="15797">
+    <groups>
+    </groups>
+    <test started-at="2020-05-13T17:21:57 IST" name="Default test" finished-at="2020-05-13T17:22:13 IST" duration-ms="15797">
+      <class name="UdemeyQaClick.ExtentReport.ExtentReportBrowser">
+        <test-method is-config="true" signature="config()[pri:0, instance:UdemeyQaClick.ExtentReport.ExtentReportBrowser@33afa13b]" started-at="2020-05-13T17:21:57 IST" name="config" finished-at="2020-05-13T17:21:58 IST" duration-ms="818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method signature="ChromeBrow()[pri:0, instance:UdemeyQaClick.ExtentReport.ExtentReportBrowser@33afa13b]" started-at="2020-05-13T17:21:58 IST" name="ChromeBrow" finished-at="2020-05-13T17:22:13 IST" duration-ms="14897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeBrow -->
+      </class> <!-- UdemeyQaClick.ExtentReport.ExtentReportBrowser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
